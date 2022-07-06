@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indirizzo_Sede_Legale__c</fullName>
+    <description>Indirizzo completo della sede legale</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indirizzo completo della sede legale</inlineHelpText>
+    <label>Indirizzo Sede Legale</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

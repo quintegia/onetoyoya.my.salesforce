@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allegato_1__c</fullName>
+    <description>Url o riferimento dell&apos;articolo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Url o riferimento dell&apos;articolo</inlineHelpText>
+    <label>Allegato 1</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

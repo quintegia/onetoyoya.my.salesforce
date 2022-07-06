@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Ora_Notifica__c</fullName>
+    <description>Data di notifica della notifica per gli utenti</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Quando si vuole notificare questo articolo agli utenti</inlineHelpText>
+    <label>Data Ora Notifica</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

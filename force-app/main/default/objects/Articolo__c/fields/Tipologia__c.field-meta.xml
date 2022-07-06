@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipologia__c</fullName>
+    <description>Tipologia di articolo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>In base alla tipologia lo considero come gruppo o articolo singolo</inlineHelpText>
+    <label>Tipologia</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Articolo</fullName>
+                <default>true</default>
+                <label>Articolo</label>
+            </value>
+            <value>
+                <fullName>Circolare</fullName>
+                <default>false</default>
+                <label>Circolare</label>
+            </value>
+            <value>
+                <fullName>COVID19</fullName>
+                <default>false</default>
+                <label>COVID19</label>
+            </value>
+            <value>
+                <fullName>Gruppo</fullName>
+                <default>false</default>
+                <label>Gruppo</label>
+            </value>
+            <value>
+                <fullName>Road2Tokyo</fullName>
+                <default>false</default>
+                <label>Road2Tokyo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

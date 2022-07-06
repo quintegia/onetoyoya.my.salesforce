@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipologia__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipologia</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Principale</fullName>
+                <default>false</default>
+                <label>Principale</label>
+            </value>
+            <value>
+                <fullName>Distretto</fullName>
+                <default>false</default>
+                <label>Distretto</label>
+            </value>
+            <value>
+                <fullName>Zona</fullName>
+                <default>false</default>
+                <label>Zona</label>
+            </value>
+            <value>
+                <fullName>Casa Auto</fullName>
+                <default>false</default>
+                <label>Casa Auto</label>
+            </value>
+            <value>
+                <fullName>Marchio</fullName>
+                <default>false</default>
+                <label>Marchio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

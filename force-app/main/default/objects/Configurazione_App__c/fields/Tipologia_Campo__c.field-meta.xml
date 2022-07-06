@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipologia_Campo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipologia Campo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Numerico</fullName>
+                <default>false</default>
+                <label>Numerico</label>
+            </value>
+            <value>
+                <fullName>Testuale</fullName>
+                <default>false</default>
+                <label>Testuale</label>
+            </value>
+            <value>
+                <fullName>Booleano</fullName>
+                <default>false</default>
+                <label>Booleano</label>
+            </value>
+            <value>
+                <fullName>Data</fullName>
+                <default>false</default>
+                <label>Data</label>
+            </value>
+            <value>
+                <fullName>Data Ora</fullName>
+                <default>false</default>
+                <label>Data Ora</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

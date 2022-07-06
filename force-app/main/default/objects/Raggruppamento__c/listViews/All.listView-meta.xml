@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Etichetta_Genitore__c</columns>
+    <columns>Etichetta_IT__c</columns>
+    <columns>Gruppo__c</columns>
+    <columns>No_Trend__c</columns>
+    <columns>Ordine_Risultati_Dealer__c</columns>
+    <columns>Ordine_Risultati_Manager__c</columns>
+    <columns>Peso_Genitore__c</columns>
+    <columns>Priorita_Visualizzazione__c</columns>
+    <columns>Genitore__c</columns>
+    <columns>Tipologia__c</columns>
+    <columns>Tipologia_Grafico__c</columns>
+    <columns>Visualizzabile_da_dealer_in__c</columns>
+    <columns>Visualizzabile_da_manager_in__c</columns>
+    <columns>Azienda_Permessi_Visualizzazione__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tutto</label>
+</ListView>

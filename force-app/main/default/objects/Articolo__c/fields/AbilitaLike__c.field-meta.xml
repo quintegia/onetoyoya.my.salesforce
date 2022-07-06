@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AbilitaLike__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Se vero abilita la possibilità di accettare like da parte degli utenti</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Se vero abilita la possibilità di accettare like da parte degli utenti</inlineHelpText>
+    <label>AbilitaLike</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

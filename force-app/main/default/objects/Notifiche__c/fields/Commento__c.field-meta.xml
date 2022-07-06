@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commento__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Notifica ad un commento</description>
+    <externalId>false</externalId>
+    <label>Commento</label>
+    <referenceTo>Utente_Articolo__c</referenceTo>
+    <relationshipLabel>Notifiche</relationshipLabel>
+    <relationshipName>Notifiche</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

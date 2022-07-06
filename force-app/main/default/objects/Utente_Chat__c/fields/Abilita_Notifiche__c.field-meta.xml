@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abilita_Notifiche__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Se selezionato abilita le notifiche via app</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Se selezionato abilita le notifiche via app</inlineHelpText>
+    <label>Abilita Notifiche</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

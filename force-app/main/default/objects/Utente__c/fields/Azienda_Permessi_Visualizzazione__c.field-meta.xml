@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Azienda_Permessi_Visualizzazione__c</fullName>
+    <description>Definisce quali raggruppamenti l&apos;utente manager può visualizzare</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Definisce quali raggruppamenti l&apos;utente manager può visualizzare</inlineHelpText>
+    <label>Azienda Permessi Visualizzazione</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Aziende_Permessi_Visualizzazione</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

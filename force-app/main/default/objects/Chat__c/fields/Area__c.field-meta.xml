@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area__c</fullName>
+    <description>Area di riferimento della chat</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Area di riferimento della chat</inlineHelpText>
+    <label>Area</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>After Sales</fullName>
+                <default>false</default>
+                <label>After Sales</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Network Development</fullName>
+                <default>false</default>
+                <label>Network Development</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>TFM</fullName>
+                <default>false</default>
+                <label>TFM</label>
+            </value>
+            <value>
+                <fullName>TFS</fullName>
+                <default>false</default>
+                <label>TFS</label>
+            </value>
+            <value>
+                <fullName>TIM</fullName>
+                <default>false</default>
+                <label>TIM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

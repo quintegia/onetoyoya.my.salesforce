@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipologia_Grafico__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipologia Grafico</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Distribuzione Frequenza</fullName>
+                <default>false</default>
+                <label>Distribuzione Frequenza</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

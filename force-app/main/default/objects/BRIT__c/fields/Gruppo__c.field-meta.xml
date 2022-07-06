@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gruppo__c</fullName>
+    <description>Gruppo di appartenenza per Benchmark Rete</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Gruppo di appartenenza per Benchmark Rete</inlineHelpText>
+    <label>Gruppo</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>G1</fullName>
+                <default>true</default>
+                <label>G1</label>
+            </value>
+            <value>
+                <fullName>G2</fullName>
+                <default>false</default>
+                <label>G2</label>
+            </value>
+            <value>
+                <fullName>G3</fullName>
+                <default>false</default>
+                <label>G3</label>
+            </value>
+            <value>
+                <fullName>G4</fullName>
+                <default>false</default>
+                <label>G4</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

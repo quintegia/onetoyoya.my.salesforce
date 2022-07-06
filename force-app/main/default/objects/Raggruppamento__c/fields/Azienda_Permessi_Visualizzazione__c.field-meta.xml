@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Azienda_Permessi_Visualizzazione__c</fullName>
+    <description>Specifica a quale azienda appartiene il raggruppamento, di modo che in base all&apos;utente possano essere filtrati</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifica a quale azienda appartiene il raggruppamento, di modo che in base all&apos;utente possano essere filtrati</inlineHelpText>
+    <label>Azienda Permessi Visualizzazione</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Aziende_Permessi_Visualizzazione</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Aggiunto_Da_Utente__c</columns>
+    <columns>Chat__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Data_Ora_Aggiunta__c</columns>
+    <columns>Data_Ora_Rimozione__c</columns>
+    <columns>Data_Ora_Ultimo_Accesso__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Ruolo_Chat__c</columns>
+    <columns>Utente__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tutto</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domanda__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Domanda collegata all&apos;articolo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Se collegato ad una domanda vincola la risposta a quella domanda per essere visualizzato</inlineHelpText>
+    <label>Domanda</label>
+    <referenceTo>Domanda_Questionario__c</referenceTo>
+    <relationshipLabel>Articoli</relationshipLabel>
+    <relationshipName>Articoli</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

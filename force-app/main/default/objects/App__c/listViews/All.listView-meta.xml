@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Apple_Store_Url__c</columns>
+    <columns>Google_Play_Store_Url__c</columns>
+    <columns>Versione__c</columns>
+    <columns>Versione_Android__c</columns>
+    <columns>Versione_IOS__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tutto</label>
+</ListView>

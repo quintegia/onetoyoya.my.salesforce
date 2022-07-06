@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Testo__c</fullName>
+    <description>Testo relativo al commento</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Testo relativo al commento</inlineHelpText>
+    <label>Testo</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

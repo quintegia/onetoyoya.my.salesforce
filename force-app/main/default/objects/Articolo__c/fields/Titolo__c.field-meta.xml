@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Titolo__c</fullName>
+    <description>Titolo dell&apos;articolo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Inserire il titolo dell&apos;articolo</inlineHelpText>
+    <label>Titolo</label>
+    <length>255</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
