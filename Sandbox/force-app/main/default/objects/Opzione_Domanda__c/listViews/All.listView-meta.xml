@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Etichetta_Risultati_IT__c</columns>
+    <columns>Etichetta_Risultati_EN__c</columns>
+    <columns>Insieme_Opzioni_Domanda__c</columns>
+    <columns>Opzione_Domanda_IT__c</columns>
+    <columns>Opzione_Domanda_EN__c</columns>
+    <columns>Valore_Numerico__c</columns>
+    <columns>Valore_Testuale__c</columns>
+    <columns>Ordine__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tutto</label>
+</ListView>

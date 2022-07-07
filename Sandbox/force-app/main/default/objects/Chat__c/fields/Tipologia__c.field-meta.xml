@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipologia__c</fullName>
+    <description>Tipologia della chat, se gruppo o tra 2 persone</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tipologia della chat, se gruppo o tra 2 persone</inlineHelpText>
+    <label>Tipologia</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>group</fullName>
+                <default>false</default>
+                <label>Gruppo</label>
+            </value>
+            <value>
+                <fullName>direct</fullName>
+                <default>true</default>
+                <label>Doppia</label>
+            </value>
+            <value>
+                <fullName>channel</fullName>
+                <default>false</default>
+                <label>Canale</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

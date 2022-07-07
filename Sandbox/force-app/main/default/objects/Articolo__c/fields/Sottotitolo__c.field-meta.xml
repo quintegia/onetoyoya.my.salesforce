@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sottotitolo__c</fullName>
+    <description>Eventuale sottotitolo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Eventuale sottotitolo</inlineHelpText>
+    <label>Sottotitolo</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

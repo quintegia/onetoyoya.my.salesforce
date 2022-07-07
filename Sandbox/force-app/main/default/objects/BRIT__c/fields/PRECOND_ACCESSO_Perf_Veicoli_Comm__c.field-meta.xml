@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PRECOND_ACCESSO_Perf_Veicoli_Comm__c</fullName>
+    <description>PRECONDIZIONI DI ACCESSO - Perf. Veicoli Commerciali</description>
+    <externalId>false</externalId>
+    <label>PRECOND. ACCESSO - Perf. Veicoli Comm.</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

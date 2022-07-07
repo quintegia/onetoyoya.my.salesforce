@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipologia__c</fullName>
+    <description>Commento, Like o Visualizzazione</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Commento, Like o Visualizzazione</inlineHelpText>
+    <label>Tipologia</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Commento</fullName>
+                <default>true</default>
+                <label>Commento</label>
+            </value>
+            <value>
+                <fullName>Like</fullName>
+                <default>false</default>
+                <label>Like</label>
+            </value>
+            <value>
+                <fullName>Visualizzazione</fullName>
+                <default>false</default>
+                <label>Visualizzazione</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

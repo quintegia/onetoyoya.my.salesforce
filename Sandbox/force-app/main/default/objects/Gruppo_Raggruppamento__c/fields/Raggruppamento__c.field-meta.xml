@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raggruppamento__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Raggruppamento che fa parte del gruppo</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Raggruppamento che fa parte del gruppo</inlineHelpText>
+    <label>Raggruppamento</label>
+    <referenceTo>Raggruppamento__c</referenceTo>
+    <relationshipLabel>Gruppi Raggruppamenti</relationshipLabel>
+    <relationshipName>Gruppi_Raggruppamenti</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

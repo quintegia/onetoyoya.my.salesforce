@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area__c</fullName>
+    <description>Area di riferimento della chat</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Area di riferimento della chat</inlineHelpText>
+    <label>Area</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Area_Permessi_Visualizzazione</valueSetName>
+    </valueSet>
+</CustomField>

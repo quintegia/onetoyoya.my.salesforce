@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gruppo_Master__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Gruppo principale al quale è collegato. Necessario solo se l&apos;alberatura dipende da un&apos;alberatura principale. Come nel caso di TFS che dipenderà direttamente dall&apos;alberatura di TMI</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Gruppo principale al quale è collegato. Necessario solo se l&apos;alberatura dipende da un&apos;alberatura principale. Come nel caso di TFS che dipenderà direttamente dall&apos;alberatura di TMI</inlineHelpText>
+    <label>Gruppo Master</label>
+    <referenceTo>Gruppo__c</referenceTo>
+    <relationshipLabel>Gruppi (Gruppo Master)</relationshipLabel>
+    <relationshipName>Gruppi_Master</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

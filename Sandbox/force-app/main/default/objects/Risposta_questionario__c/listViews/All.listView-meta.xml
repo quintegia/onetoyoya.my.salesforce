@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Data_Ora_Risposta__c</columns>
+    <columns>Domanda_questionario__c</columns>
+    <columns>Ordine_Domanda__c</columns>
+    <columns>Pagina_Domanda__c</columns>
+    <columns>Sezione_Domanda__c</columns>
+    <columns>Utente__c</columns>
+    <columns>Valore_Numerico__c</columns>
+    <columns>Valore_Testuale__c</columns>
+    <columns>Valore_Testuale_Lungo__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Utente__c</field>
+        <operation>equals</operation>
+        <value>UC-0000003</value>
+    </filters>
+    <label>Tutto</label>
+</ListView>

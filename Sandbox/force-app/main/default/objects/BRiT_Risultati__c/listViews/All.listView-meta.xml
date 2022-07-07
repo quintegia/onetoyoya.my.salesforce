@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Cod_KPI__c</columns>
+    <columns>Anno__c</columns>
+    <columns>Mese__c</columns>
+    <columns>Cod_Casa__c</columns>
+    <columns>Value__c</columns>
+    <columns>Benchmark__c</columns>
+    <columns>Marchio__c</columns>
+    <columns>Non_visualizzare__c</columns>
+    <columns>Nome_Dealer__c</columns>
+    <columns>Distretto__c</columns>
+    <columns>Gruppo__c</columns>
+    <columns>Zona__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Tutti i record</label>
+</ListView>

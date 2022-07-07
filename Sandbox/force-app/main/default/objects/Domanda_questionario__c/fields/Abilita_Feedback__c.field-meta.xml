@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Abilita_Feedback__c</fullName>
+    <description>Se abilitato il feedback mostro la domanda.</description>
+    <externalId>false</externalId>
+    <formula>IF(OR(NOT(ISBLANK(Partecipazione_Workshop__c)),NOT(ISBLANK(Workshop__c))), 
+OR(Workshop__r.Abilita_Feedback__c,  Partecipazione_Workshop__r.AbilitaFeedback__c)
+,true)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Abilita_Feedback</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

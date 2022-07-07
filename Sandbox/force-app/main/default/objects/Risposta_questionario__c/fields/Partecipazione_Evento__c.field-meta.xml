@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partecipazione_Evento__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Partecipazione</description>
+    <externalId>false</externalId>
+    <label>Partecipazione Evento</label>
+    <referenceTo>Partecipazione_Evento__c</referenceTo>
+    <relationshipLabel>Risposte questionario</relationshipLabel>
+    <relationshipName>Risposte_questionario</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

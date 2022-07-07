@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etichetta_Ridotta_EN__c</fullName>
+    <description>Etichetta ridotta per dealer map</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Etichetta ridotta per dealer map</inlineHelpText>
+    <label>Etichetta Ridotta EN</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

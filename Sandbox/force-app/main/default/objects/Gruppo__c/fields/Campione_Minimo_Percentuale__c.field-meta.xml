@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campione_Minimo_Percentuale__c</fullName>
+    <description>Limite minimo in percentuale, del campione per il quale il grafico dev&apos;essere mostrato. (es. 10% di tutti i dealer)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Limite minimo in percentuale, del campione per il quale il grafico dev&apos;essere mostrato. (es. 10% di tutti i dealer)</inlineHelpText>
+    <label>Campione Minimo Percentuale</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brits</fullName>
+    <fields>Name</fields>
+    <fields>Anno__c</fields>
+    <fields>Codice__c</fields>
+    <fields>Distretto__c</fields>
+    <fields>Gruppo__c</fields>
+    <fields>Marchio__c</fields>
+    <fields>Mese__c</fields>
+    <fields>Nome_dealer__c</fields>
+    <fields>Zona__c</fields>
+    <label>Brits</label>
+</CompactLayout>

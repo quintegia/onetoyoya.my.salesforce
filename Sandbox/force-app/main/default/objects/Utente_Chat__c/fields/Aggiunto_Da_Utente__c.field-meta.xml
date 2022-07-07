@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aggiunto_Da_Utente__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Definisce da chi è stato aggiunto alla chat l&apos;utente</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Definisce da chi è stato aggiunto alla chat l&apos;utente</inlineHelpText>
+    <label>Aggiunto Da Utente</label>
+    <referenceTo>Utente__c</referenceTo>
+    <relationshipLabel>Utenti Chat (Aggiunto Da Utente)</relationshipLabel>
+    <relationshipName>Utenti_Chat1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

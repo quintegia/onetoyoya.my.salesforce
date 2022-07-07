@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visualizzabile_da_manager_in__c</fullName>
+    <externalId>false</externalId>
+    <label>Visualizzabile da manager in</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Business Dashboard</fullName>
+                <default>false</default>
+                <label>Business Dashboard</label>
+            </value>
+            <value>
+                <fullName>Business Insight</fullName>
+                <default>false</default>
+                <label>Business Insight</label>
+            </value>
+            <value>
+                <fullName>Business with TMI Dashboard</fullName>
+                <default>false</default>
+                <label>Business with TMI Dashboard</label>
+            </value>
+            <value>
+                <fullName>Dealer Map</fullName>
+                <default>false</default>
+                <label>Dealer Map</label>
+            </value>
+            <value>
+                <fullName>Dealer Motivation Dashboard</fullName>
+                <default>false</default>
+                <label>Dealer Motivation Dashboard</label>
+            </value>
+            <value>
+                <fullName>Dealer Motivation Insight</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dealer Motivation Insight</label>
+            </value>
+            <value>
+                <fullName>More Results</fullName>
+                <default>false</default>
+                <label>More Results</label>
+            </value>
+            <value>
+                <fullName>Motivation Dashboard</fullName>
+                <default>false</default>
+                <label>Motivation Dashboard</label>
+            </value>
+            <value>
+                <fullName>Motivation Insight</fullName>
+                <default>false</default>
+                <label>Motivation Insight</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

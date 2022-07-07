@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Utente_Master__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Se impostato l&apos;utente corrente agirà (in lettura) come se fosse l&apos;utente master</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Se impostato l&apos;utente corrente agirà (in lettura) come se fosse l&apos;utente master</inlineHelpText>
+    <label>Utente Master</label>
+    <referenceTo>Utente__c</referenceTo>
+    <relationshipLabel>Utenti Custom</relationshipLabel>
+    <relationshipName>Utenti_Custom</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

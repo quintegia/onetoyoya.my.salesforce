@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Questionario__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Questionario a cui appartiene</description>
+    <externalId>false</externalId>
+    <label>Questionario</label>
+    <referenceTo>Questionario__c</referenceTo>
+    <relationshipLabel>Domande questionario</relationshipLabel>
+    <relationshipName>Domande_questionario</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

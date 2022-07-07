@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KPI__c</fullName>
+    <externalId>false</externalId>
+    <label>KPI</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>We Hybrid Insurance (on eligible model)</fullName>
+                <default>false</default>
+                <label>We Hybrid Insurance (on eligible model)</label>
+            </value>
+            <value>
+                <fullName>CR da Lead</fullName>
+                <default>false</default>
+                <label>CR da Lead</label>
+            </value>
+            <value>
+                <fullName>Performance KINTO ONE</fullName>
+                <default>false</default>
+                <label>Performance KINTO ONE</label>
+            </value>
+            <value>
+                <fullName>Perf. Sales</fullName>
+                <default>false</default>
+                <label>Perf. Sales</label>
+            </value>
+            <value>
+                <fullName>Employee Engagement Survey</fullName>
+                <default>false</default>
+                <label>Employee Engagement Survey</label>
+            </value>
+            <value>
+                <fullName>Perf. Veicoli Commerciali</fullName>
+                <default>false</default>
+                <label>Perf. Veicoli Commerciali</label>
+            </value>
+            <value>
+                <fullName>Perf. A/S</fullName>
+                <default>false</default>
+                <label>Perf. A/S</label>
+            </value>
+            <value>
+                <fullName>Perf. NPS</fullName>
+                <default>false</default>
+                <label>Perf. NPS</label>
+            </value>
+            <value>
+                <fullName>Gestione Lead entro 1h</fullName>
+                <default>false</default>
+                <label>Gestione Lead entro 1h</label>
+            </value>
+            <value>
+                <fullName>Managers of Tomorrow</fullName>
+                <default>false</default>
+                <label>Managers of Tomorrow</label>
+            </value>
+            <value>
+                <fullName>VCA</fullName>
+                <default>false</default>
+                <label>VCA</label>
+            </value>
+            <value>
+                <fullName>Certificazione LSM</fullName>
+                <default>false</default>
+                <label>Certificazione LSM</label>
+            </value>
+            <value>
+                <fullName>Gestione dati clienti (GDPR)</fullName>
+                <default>false</default>
+                <label>Gestione dati clienti (GDPR)</label>
+            </value>
+            <value>
+                <fullName>Qualità dati clienti (GDPR)</fullName>
+                <default>false</default>
+                <label>Qualità dati clienti (GDPR)</label>
+            </value>
+            <value>
+                <fullName>Customer Retention</fullName>
+                <default>false</default>
+                <label>Customer Retention</label>
+            </value>
+            <value>
+                <fullName>Certificazione TSM</fullName>
+                <default>false</default>
+                <label>Certificazione TSM</label>
+            </value>
+            <value>
+                <fullName>Lexus Experience</fullName>
+                <default>false</default>
+                <label>Lexus Experience</label>
+            </value>
+            <value>
+                <fullName>Penetrazione LIM</fullName>
+                <default>false</default>
+                <label>Penetrazione LIM</label>
+            </value>
+            <value>
+                <fullName>Back to Back (Rinnovi del nuovo TCM)</fullName>
+                <default>false</default>
+                <label>Back to Back (Rinnovi del nuovo TCM)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

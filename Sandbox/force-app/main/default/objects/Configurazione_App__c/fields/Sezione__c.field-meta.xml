@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sezione__c</fullName>
+    <externalId>false</externalId>
+    <label>Sezione</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Generale</fullName>
+                <default>false</default>
+                <label>Generale</label>
+            </value>
+            <value>
+                <fullName>Dealer Map</fullName>
+                <default>false</default>
+                <label>Dealer Map</label>
+            </value>
+            <value>
+                <fullName>Dealer Insight</fullName>
+                <default>false</default>
+                <label>Dealer Insight</label>
+            </value>
+            <value>
+                <fullName>Dealer More Results</fullName>
+                <default>false</default>
+                <label>Dealer More Results</label>
+            </value>
+            <value>
+                <fullName>Grafici</fullName>
+                <default>false</default>
+                <label>Grafici</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

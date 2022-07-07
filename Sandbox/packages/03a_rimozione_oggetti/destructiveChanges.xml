@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Accesso__c</members>
+        <members>App__c</members>
+        <members>Articolo__c</members>
+        <members>BRiT__c</members>
+        <members>BRiT_Aree_KPI__c</members>
+        <members>BRiT_KPI__c</members>
+        <members>BRiT_Risultati__c</members>
+        <members>BRiT_Visualizzazioni__c</members>
+        <members>Chat__c</members>
+        <members>Configurazione_App__c</members>
+        <members>Dispositivo__c</members>
+        <members>Gruppo__c</members>
+        <members>Gruppo_Articolo__c</members>
+        <members>Insieme_Opzioni_Domanda__c</members>
+        <members>Notifiche__c</members>
+        <members>Opzione_Domanda__c</members>
+        <members>Raggruppamento__c</members>
+        <members>Utente__c</members>
+        <members>Utente_Articolo__c</members>
+        <members>Utente_Chat__c</members>
+        <members>Utente_Gruppo__c</members>
+        <members>TMI_RCC__c</members>
+        <name>CustomObject</name>
+    </types>
+    <version>55.0</version>
+</Package>

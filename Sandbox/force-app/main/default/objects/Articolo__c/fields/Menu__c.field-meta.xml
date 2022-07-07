@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Menu__c</fullName>
+    <description>Voci di menu dove l&apos;articolo dovrà essere inserito</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Voci di menu dove l&apos;articolo dovrà essere inserito</inlineHelpText>
+    <label>Menu</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Toyota</fullName>
+                <default>false</default>
+                <label>Toyota</label>
+            </value>
+            <value>
+                <fullName>Lexus</fullName>
+                <default>false</default>
+                <label>Lexus</label>
+            </value>
+            <value>
+                <fullName>TFS</fullName>
+                <default>false</default>
+                <label>TFS</label>
+            </value>
+            <value>
+                <fullName>TIM</fullName>
+                <default>false</default>
+                <label>TIM</label>
+            </value>
+            <value>
+                <fullName>TFM</fullName>
+                <default>false</default>
+                <label>TFM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domande_TMI_RCC</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Data_Ora_Fine__c</columns>
+    <columns>Data_Ora_Inizio__c</columns>
+    <columns>Data_Ora_Notifica__c</columns>
+    <columns>Albero__c</columns>
+    <columns>Domanda_IT__c</columns>
+    <columns>Etichetta_IT__c</columns>
+    <columns>Tipologia__c</columns>
+    <columns>Visibile__c</columns>
+    <columns>Suggerimento__c</columns>
+    <columns>Raggruppamento__c</columns>
+    <columns>Questionario__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Questionario__c</field>
+        <operation>equals</operation>
+        <value>TMI RCC</value>
+    </filters>
+    <label>Domande TMI RCC</label>
+</ListView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Trend__c</fullName>
+    <externalId>false</externalId>
+    <label>No Trend</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Dealer</fullName>
+                <default>false</default>
+                <label>Dealer</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

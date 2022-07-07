@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Descrizione_EN__c</fullName>
+    <description>Descrizione della domanda (ad esempio per testi iniziali di sezioni o simili)</description>
+    <externalId>false</externalId>
+    <label>Descrizione EN</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

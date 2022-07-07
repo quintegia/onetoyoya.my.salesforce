@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Versione_Android__c</fullName>
+    <description>Versione e build android</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Versione e build android</inlineHelpText>
+    <label>Versione Android</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

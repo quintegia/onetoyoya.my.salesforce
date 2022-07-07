@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LayoutCompattoDomande</fullName>
+    <fields>Name</fields>
+    <fields>Abilita_Feedback__c</fields>
+    <fields>Partecipazione_Workshop__c</fields>
+    <fields>Domanda_padre__c</fields>
+    <fields>Obbligatoria__c</fields>
+    <fields>Ordine__c</fields>
+    <fields>Pagina__c</fields>
+    <fields>Sezione__c</fields>
+    <fields>Tipologia__c</fields>
+    <fields>Workshop__c</fields>
+    <label>LayoutCompattoDomande</label>
+</CompactLayout>
