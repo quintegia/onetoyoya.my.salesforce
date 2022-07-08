@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label></label>
+    <name>Obbligatoria_Per_Risultati__c</name>
+    <picklistValues>
+        <masterLabel>Dealer Altri risultati</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dealer Dashboard</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

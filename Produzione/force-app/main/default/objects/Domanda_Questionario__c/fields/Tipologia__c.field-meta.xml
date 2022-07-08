@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipologia__c</fullName>
+    <description>Tipologia della domanda</description>
+    <externalId>false</externalId>
+    <label>Tipologia</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Informativo</fullName>
+                <default>false</default>
+                <label>Informativo</label>
+            </value>
+            <value>
+                <fullName>Testo semplice</fullName>
+                <default>false</default>
+                <label>Testo semplice</label>
+            </value>
+            <value>
+                <fullName>Testo lungo</fullName>
+                <default>false</default>
+                <label>Testo lungo</label>
+            </value>
+            <value>
+                <fullName>Numerico	Numerico</fullName>
+                <default>false</default>
+                <label>Numerico	Numerico</label>
+            </value>
+            <value>
+                <fullName>Valutazione</fullName>
+                <default>false</default>
+                <label>Valutazione</label>
+            </value>
+            <value>
+                <fullName>Vero/falso</fullName>
+                <default>false</default>
+                <label>Vero/falso</label>
+            </value>
+            <value>
+                <fullName>Scelta multipla</fullName>
+                <default>false</default>
+                <label>Scelta multipla</label>
+            </value>
+            <value>
+                <fullName>Valutazione multipla</fullName>
+                <default>false</default>
+                <label>Valutazione multipla</label>
+            </value>
+            <value>
+                <fullName>Radio</fullName>
+                <default>false</default>
+                <label>Radio</label>
+            </value>
+            <value>
+                <fullName>Menu di selezione singol</fullName>
+                <default>false</default>
+                <label>Menu di selezione singol</label>
+            </value>
+            <value>
+                <fullName>Opzione</fullName>
+                <default>false</default>
+                <label>Opzione</label>
+            </value>
+            <value>
+                <fullName>Radio con commento</fullName>
+                <default>false</default>
+                <label>Radio con commento</label>
+            </value>
+            <value>
+                <fullName>Radio con commento obbligatorio</fullName>
+                <default>false</default>
+                <label>Radio con commento obbligatorio</label>
+            </value>
+            <value>
+                <fullName>Radio con commento obbligatorio se minore di 3</fullName>
+                <default>false</default>
+                <label>Radio con commento obbligatorio se minore di 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

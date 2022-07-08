@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domanda_Questionario__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Domanda a cui ha risposto</description>
+    <externalId>false</externalId>
+    <label>Domanda Questionario</label>
+    <referenceTo>Domanda_Questionario__c</referenceTo>
+    <relationshipLabel>Risposte Questionario</relationshipLabel>
+    <relationshipName>Risposte_Questionario</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Info_Domanda__c</fullName>
+    <description>Informazioni relative alla domanda</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Domanda_Questionario__c)),
+ &quot;Etichetta: &quot; + Domanda_Questionario__r.Etichetta__c + BR() +
+  &quot;Tipologia: &quot; + TEXT(Domanda_Questionario__r.Tipologia__c) + BR() +
+  &quot;Obbligatoria: &quot; + IF(Domanda_Questionario__r.Obbligatoria__c, &quot;SI&quot;, &quot;NO&quot;) + BR() +
+  IF(NOT(ISBLANK( Domanda_Questionario__r.Workshop__c)), 
+   &quot;Workshop: &quot; + Domanda_Questionario__r.Workshop__r.Name + BR(),
+   &quot;&quot;
+  ) +
+  IF(NOT(ISBLANK(Domanda_Questionario__r.Partecipazione_Workshop__r.Partecipante__c)), 
+   &quot;Speaker: &quot; + Domanda_Questionario__r.Partecipazione_Workshop__r.Partecipante__r.Name + BR(),
+   &quot;&quot;
+  ) +
+  IF(NOT(ISBLANK(Domanda_Questionario__r.Info_Domanda_Padre__c)), 
+   &quot;Info Domanda Padre: &quot; + BR() + Domanda_Questionario__r.Info_Domanda_Padre__c + BR(),
+   &quot;&quot;
+  ),
+ &quot;&quot;
+)</formula>
+    <inlineHelpText>Informazioni relative alla domanda</inlineHelpText>
+    <label>Info Domanda</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

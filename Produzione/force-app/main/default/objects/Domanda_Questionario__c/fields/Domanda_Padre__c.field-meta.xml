@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domanda_Padre__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Eventuale domanda padre di quella attuale (per scelte multiple)</description>
+    <externalId>false</externalId>
+    <label>Domanda Padre</label>
+    <referenceTo>Domanda_Questionario__c</referenceTo>
+    <relationshipLabel>Domande Questionario</relationshipLabel>
+    <relationshipName>Domande_Questionario</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

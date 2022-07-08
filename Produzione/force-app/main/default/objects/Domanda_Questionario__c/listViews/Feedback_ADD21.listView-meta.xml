@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_ADD21</fullName>
+    <columns>NAME</columns>
+    <columns>Testo_IT__c</columns>
+    <columns>Testo_EN__c</columns>
+    <columns>Tipologia__c</columns>
+    <columns>Visibile__c</columns>
+    <columns>Sezione__c</columns>
+    <columns>Pagina__c</columns>
+    <columns>Ordine__c</columns>
+    <columns>Domanda_Padre__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Questionario__c</field>
+        <operation>equals</operation>
+        <value>ADD21 Feedback</value>
+    </filters>
+    <label>Feedback ADD21</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Ora_Inizio_Analisi__c</fullName>
+    <description>Data e ora che definisce l&apos;inizio di quando la domanda dev&apos;essere presa in considerazione per le analisi</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Data e ora che definisce l&apos;inizio di quando la domanda dev&apos;essere presa in considerazione per le analisi</inlineHelpText>
+    <label>Data Ora Inizio Analisi</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

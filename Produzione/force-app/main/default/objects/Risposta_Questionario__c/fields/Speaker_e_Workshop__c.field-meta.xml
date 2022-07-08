@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speaker_e_Workshop__c</fullName>
+    <description>Concatenazione Speaker - Workshop</description>
+    <externalId>false</externalId>
+    <formula>Nome_Speaker__c + &quot; - &quot; +  Nome_Workshop__c</formula>
+    <inlineHelpText>Concatenazione Speaker - Workshop</inlineHelpText>
+    <label>Speaker e Workshop</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

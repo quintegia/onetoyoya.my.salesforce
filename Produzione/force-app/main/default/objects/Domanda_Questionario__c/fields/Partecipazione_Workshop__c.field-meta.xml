@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partecipazione_Workshop__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Eventuale speaker collegato alla domanda</description>
+    <externalId>false</externalId>
+    <label>Partecipazione Workshop</label>
+    <referenceTo>Partecipazioni_Workshop__c</referenceTo>
+    <relationshipLabel>Domande Questionario</relationshipLabel>
+    <relationshipName>Domande_Questionario</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

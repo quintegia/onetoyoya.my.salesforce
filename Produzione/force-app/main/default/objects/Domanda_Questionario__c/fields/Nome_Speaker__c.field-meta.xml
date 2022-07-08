@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nome_Speaker__c</fullName>
+    <description>Nome e cognome del relatore se associato alla domanda</description>
+    <externalId>false</externalId>
+    <formula>Partecipazione_Workshop__r.Partecipante__r.Nome1__c + &quot; &quot; +  Partecipazione_Workshop__r.Partecipante__r.Cognome1__c</formula>
+    <inlineHelpText>Nome e cognome del relatore se associato alla domanda</inlineHelpText>
+    <label>Nome Speaker</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

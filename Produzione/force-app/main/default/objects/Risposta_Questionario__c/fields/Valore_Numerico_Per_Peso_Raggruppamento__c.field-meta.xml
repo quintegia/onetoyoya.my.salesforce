@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valore_Numerico_Per_Peso_Raggruppamento__c</fullName>
+    <description>Valore Numerico per peso genitore del raggruppamento. Necessario per media ponderata.</description>
+    <externalId>false</externalId>
+    <formula>Valore_Numerico__c * Domanda_Questionario__r.Raggruppamento__r.Peso_Genitore__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Valore Numerico per peso genitore del raggruppamento. Necessario per media ponderata.</inlineHelpText>
+    <label>Valore Numerico Per Peso Raggruppamento</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

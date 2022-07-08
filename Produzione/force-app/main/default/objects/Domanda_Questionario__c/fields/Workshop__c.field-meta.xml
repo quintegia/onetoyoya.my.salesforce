@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Workshop__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Eventuale workshop collegato</description>
+    <externalId>false</externalId>
+    <label>Workshop</label>
+    <referenceTo>Workshop__c</referenceTo>
+    <relationshipLabel>Domande Questionario</relationshipLabel>
+    <relationshipName>Domande_Questionario</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

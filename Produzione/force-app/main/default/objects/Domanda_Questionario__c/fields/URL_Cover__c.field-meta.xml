@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>URL_Cover__c</fullName>
+    <description>Utilizzata nei questionari feedback in caso si voglia associare una immagine alla domanda (e.g. logo azienda o relatore)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Utilizzata nei questionari feedback in caso si voglia associare una immagine alla domanda (e.g. logo azienda o relatore)</inlineHelpText>
+    <label>URL Cover</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>
